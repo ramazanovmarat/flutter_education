@@ -65,6 +65,7 @@ class NobleGasRibbon extends StatelessWidget {
     List<Widget>ribbon = [];
     for(var item in ngList){
       ribbon.add(elementDesign(item));
+      ribbon.add(const Divider(thickness: 1,));
     }
 
     return Column(children: ribbon,);
