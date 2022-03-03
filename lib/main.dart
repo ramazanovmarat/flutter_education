@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_your_name/i_layout/my_button.dart';
 import 'package:flutter_your_name/i_layout/my_list_view.dart';
 import 'package:flutter_your_name/i_layout/my_stack.dart';
 import 'package:flutter_your_name/screens/les_53.medals.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Tg(), // подключаем свои виджеты к home
+      home: MyButton(), // подключаем свои виджеты к home
     );
 
   }
